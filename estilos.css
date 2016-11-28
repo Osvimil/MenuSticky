@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-family: cursive;
+    padding-bottom: 100em;
+}
+h1, .menu{
+    color:#fff;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    background: green;
+   
+}
+.menu{
+    background: rgba(220,60,20,0.9);
+    transition: all 1s;
+}
+.fixed{
+    position: fixed;
+    width:100%;
+    top:0;
+    left:0;
+    background:crimson ;
+}
